@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>kevin gist</title>
-    <link href="example.css" rel="stylesheet" type="text/css" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/example.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
   <body>
-    <div class="container"> 
-
+    <div class="container">
       <div class="jumbotron">
-         
-          <form class="centered">
-              <h1>SignUp Form</h1>
-              <div class="form-group">
-                  <label>Name</label>
-                  <input name="name" type="text" id="name" placeholder="Enter name"/>
-                  <span id="name-error">Username is too short.</span>
-              </div>
-             
-              <div class="form-group">
-                <label>Email</label>
-                <input name="email" type="text" id="email" placeholder="Enter email address"/>
-                <div id="email-error">
-                  <span class="text-danger">Incorrect email address format.</span>
-                  </div>
-              </div>
-  
-              <div class="form-group">
-                  <label>Phone</label>
-                  <input name="phone" type="text" id="phone" placeholder="Enter phone number"/>
-                  <span id="number-error">Incorrect number error.</span>
-              </div>
-              <div class="form-group">
-                <button class="btn-danger" id="save">submit</button>
-              </div>
-            </form>
+        <form class="centered">
+          <h1>SignUp Form</h1>
+          <div class="form-group">
+            <label>Name</label>
+            <input name="name" type="text" id="name" placeholder="Enter name" />
+            <span id="name-error">Username is too short.</span>
+          </div>
+
+          <div class="form-group">
+            <label>Email</label>
+            <input
+              name="email"
+              type="text"
+              id="email"
+              placeholder="Enter email address"
+            />
+            <div id="email-error">
+              <span class="text-danger">Incorrect email address format.</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Phone</label>
+            <input
+              name="phone"
+              type="text"
+              id="phone"
+              placeholder="Enter phone number"
+            />
+            <span id="number-error">Incorrect number error.</span>
+          </div>
+          <div class="form-group">
+            <button class="btn-danger" id="save">submit</button>
+          </div>
+        </form>
       </div>
-        
     </div>
-    
-    <script src="example.js"></script>
+
+    <script src="/js/example.js"></script>
   </body>
 </html>
